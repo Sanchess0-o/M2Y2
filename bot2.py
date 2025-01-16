@@ -20,7 +20,7 @@ commands = {
     'how2'        : 'как сортировать мусор?'
 }
 
-bot = telebot.TeleBot("8109758348:AAFGw7ai1lPjO_Tlom1eKhQk40O0VgIET_I")
+bot = telebot.TeleBot("token")
 
 @bot.message_handler(commands=['start'])
 def send_start(message):
